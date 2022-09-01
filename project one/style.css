@@ -228,14 +228,96 @@ section {
 }
 
 .videoetexto {
-        background-color: white;
-        height: 480px;
-        max-width: 1140px;
-        display: grid
+    background-color: white;
+    height: 480px;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-items: center;
             
 }
 
 .containervideo {
     display: flex;
     justify-content: center;
+    justify-items: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.textodovideo h1 {
+    font-family: var(--fonte03);
+    color: red;
+    padding-left: 12px;
+    font-size: 26px;
+    
+}
+
+.textodovideo h3 {
+    font-family: var(--fonte02);
+    font-weight: 400;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-right: 100px;
+    font-size: 16px;
+}
+
+.textodovideo p {
+    font-family: var(--fonte02);
+    font-weight: 400;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 760px;
+    background: url(assets/bg-blog.png);
+    background-repeat: no-repeat;
+     
+}
+
+.containerblog {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1140px;
+    margin: auto;
+       
+}
+
+.quadros > img {
+    width: 366px;
+    height: 197px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quadros > h3 {
+    padding: 20px;
+    font-family: var(--fonte02);
+    font-weight: 400;
+    color: red;
+}
+
+.quadros > p {
+    padding: 20px;
+    font-family: var(--fonte02);
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+}
+
+.mapa {
+    width: 100%;
+    height: 320px;
+    
+}
+
+.mapa > iframe {
+    width: 100%;
 }
