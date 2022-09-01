@@ -189,7 +189,8 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 480px;
+    height: 500px;
+    background-color: #E8E9EB;
     
 }
 
@@ -198,6 +199,7 @@ section {
     width: 500px;
     margin-top: 85px;
     text-align: center;
+    
 }
 
 .textdepoimentos > h1 {
@@ -212,4 +214,28 @@ section {
     padding-top: 15px;
     align-items: center;
     
+}
+.pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#cliente {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.videoetexto {
+        background-color: white;
+        height: 480px;
+        max-width: 1140px;
+        display: grid
+            
+}
+
+.containervideo {
+    display: flex;
+    justify-content: center;
 }
