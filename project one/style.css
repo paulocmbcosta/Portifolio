@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+:root {
+    --fonte01: 'Merriweather Sans', sans-serif;
+    --fonte02: 'Merriweather Sans', sans-serif;
+    --fonte03: 'Yusei Magic', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+headerr {
+    background-color: aqua;
+    
+    max-height: 40px;
+    margin: auto;
+    
+    
+}
+
+
+.container {
+    
+    font-family: var(--fonte01);
+    font-size: 11px;
+    border-bottom: 2px solid black;
+    border-color: #f9d6d6;    
+    max-width: 1140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;    
+   
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+        
+}
+
+.redes-sociais > p, img, span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container-logo {
+    font-family: var(--fonte01);
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 15px;
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.endereco, .icone, .fones {
+    margin-left: 20px;
+}
+    
+#linha {
+    border-right: 2px solid #f9d6d6;
+    padding-right: 25px;
+    
+}
+
+#logo {
+    max-width: 198px;
+    max-height: 51px;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url(imagens/banner-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+section {
+    position: relative;
+}
+
+.menu {
+    background-color: white;
+    width: 1100px;
+    height: 55px;
+    border-radius: 35px 35px 0px 0px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%); 
+}
+
+.listamenu {
+    font-family: var(--fonte03);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.listamenu > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;      
+}
+
+/* Centro */
+
+.posbanner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 440px;
+    background: url(imagens/bkg-centro.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.posbanner-info {
+    font-family: var(--fonte03);
+    width: 500px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.posbanner-info > h1 {
+    font-size: 2.8em;
+    font-weight: 500;
+    line-height: 1.0;
+    border-bottom: 1px solid #f9d6d6;
+    padding-bottom: 10px;
+}
+
+.posbanner-info > p {
+    font-family: var(--fonte02);
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte03);
+    font-size: 1.0em;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.carossel {
+    width: 100%;
+    height: 500px;
+    background: url(imagens/banner-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
