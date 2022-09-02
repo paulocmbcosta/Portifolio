@@ -372,7 +372,42 @@ section {
     padding-bottom: 15px;
 }
 
-.column4 > p {
-    font-family: var(--fonte02);
+.column4 {
+    width: 300px;
+}
+
+.column4 h3 {
+    padding-left: 30px;
+}
+
+.column4-endereco {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
+}
+
+.icone254 {
+    padding-left: 5px;
+}
+
+.enderecofooter  {
+    font-family: var(--fonte02);
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+}
+
+.fonesfooter {
+    font-family: var(--fonte02);
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+}
+
+.column4-fones {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
 }
