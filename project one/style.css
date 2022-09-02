@@ -321,3 +321,58 @@ section {
 .mapa > iframe {
     width: 100%;
 }
+
+.footer1 {
+    background-color: #33495f;
+    height: 270px;
+    width: 100%;
+    
+}
+
+.containerfooter {
+    max-width: 1140px; 
+    margin: auto;
+}
+
+.footerobjects {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.column1 {
+    max-width: 300px;
+    font-family: var(--fonte02);
+    font-weight: 100;
+    font-size: 12px;
+    color: white;
+}
+
+.column1 > img {
+    padding-bottom: 15px;
+
+}
+    
+
+.column2 a {
+    display: grid;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte02);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.footerobjects  h3 {
+    font-family: var(--fonte03);
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.column4 > p {
+    font-family: var(--fonte02);
+    
+}
